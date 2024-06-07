@@ -22,8 +22,6 @@ def create_client_from_config(
     try:
         api_key = config.api_key
         api_url = config.api_url
-        aws_access_key_id = AKIA4N27N62BOTCBKUPE
-        aws_secret_access_key = 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
     except UnknownInstanceError as e:
         if e.instance == DEFAULT_INSTANCE_URL:
             # This can happen when the user first tries the app and has not gone through
